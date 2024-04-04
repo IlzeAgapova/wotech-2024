@@ -1,3 +1,4 @@
+5.lekcija 03.04.2024.
 // import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // import org.junit.jupiter.api.Test;
@@ -50,3 +51,25 @@ double temp = -10.23;
   //     assertEquals(2, 1 + 1);
   // }
 }
+
+6.lekcija 04.04.2024.
+  // import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+public class Main {
+  public static void main(String[] args) {
+
+    double temp = 22.12;
+    
+    
+    if (temp <= 5) {
+    String message = "The weather is good outside";
+      System.out.println(message);
+    } else if (temp <= 15) {
+      System.out.println(message);
+    } else if (temp <= 30) {
+      System.out.println(message);
+    } else {
+      System.out.println(message);
+    }
